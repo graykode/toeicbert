@@ -1,0 +1,41 @@
+{
+    "1" : {
+        "question" : "Business experts predict that the upward trend in consumer spending is _ to continue until the end of this year.",
+        "answer" : "likely",
+        "1" : "potential",
+        "2" : "likely",
+        "3" : "safety",
+        "4" : "seemed"
+    },
+    "2" : {
+        "question" : "Business experts predict that the upward trend in consumer spending is _ to continue until the end of this year.",
+        "1" : "potential",
+        "2" : "likely",
+        "3" : "safety",
+        "4" : "seemed"
+    },
+    "3" : {
+        "question" : "It is believed that taking short breaks throughout the workday can help reduce personal stress _increasing long-term productivity.",
+        "answer" : "while",
+        "1" : "but",
+        "2" : "whether",
+        "3" : "since",
+        "4" : "while"
+    },
+    "4" : {
+        "question" : "The teacher had me _ scales several times a day.",
+        "answer" : "play",
+        "1" : "play",
+        "2" : "to play",
+        "3" : "played",
+        "4" : "playing"
+    },
+    "5" : {
+        "question" : "Sales are liable to be concentrated in the last few days of the month, when sales representatives know _ they must reach sales targets.",
+        "answer" : "that",
+        "1" : "about",
+        "2" : "what",
+        "3" : "that",
+        "4" : "it"
+    }
+}
