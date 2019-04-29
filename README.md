@@ -40,7 +40,7 @@ In pretrained BERT, It contains contextual information. So It can find more cont
 
 ## Evaluation
 
-<p align="center"><img width="500" src="images/baseline.gif" /></p>
+<p align="center"><img width="500" src="https://raw.githubusercontent.com/graykode/toeicbert/master/images/baseline.gif" /></p>
 
 I had evaluated with only **pretrained BERT model(not fine-tuning)** to check grammatical or lexical error. Above mathematical expression, `X` is a question sentence. and `n` is number of questions : `{a, b, c, d}`. `C` subset means answer candidate tokens : `C` of `warranty` is `['warrant', '##y']`. `V` means total Vocabulary.
 
@@ -48,7 +48,9 @@ There's a problem with more than one token. I solved this problem by getting the
 
 Then, we find argmax in `L_n(T_n)`.
 
-![](images/prediction.gif)
+
+
+<p align="center"><img width="350" src="https://raw.githubusercontent.com/graykode/toeicbert/master/images/prediction.gif" /></p>
 
 ```python
 predictions = model(question_tensors, segment_tensors)
