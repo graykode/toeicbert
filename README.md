@@ -28,6 +28,38 @@ Q) The wet weather _________ her from going shopping.
 
 
 
+#### BERT Testing
+
+1. input
+
+```json
+{
+    "1" : {
+        "question" : "Business experts predict that the upward trend in consumer spending is _ to continue until the end of this year.",
+        "answer" : "likely",
+        "1" : "potential",
+        "2" : "likely",
+        "3" : "safety",
+        "4" : "seemed"
+    }
+}
+```
+
+2. output
+
+```
+=============================
+Question : Business experts predict that the upward trend in consumer spending is _ to continue until the end of this year.
+
+Real Answer : likely
+
+1) potential 2) likely 3) safety 4) seemed
+
+BERT's Answer => [likely]
+```
+
+
+
 #### Why BERT?
 
 In pretrained BERT, It contains contextual information. So It can find more contextual or grammatical sentences, not clear, a little bit. I was inspired by grammar checker from [blog post](<https://www.scribendi.ai/can-we-use-bert-as-a-language-model-to-assign-score-of-a-sentence/>).
