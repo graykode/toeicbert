@@ -9,7 +9,7 @@ This is project as topic: `TOEIC(Test of English for International Communication
 1. Selecting Correct Grammar Type.
 
 ```
-Q) The teacher had me _________ scales several times a day.
+Q) The music teacher had me _ scales several times.
   1. play (Answer)
   2. to play
   3. played
@@ -19,7 +19,7 @@ Q) The teacher had me _________ scales several times a day.
 2. Selecting Correct Vocabulary Type.
 
 ```
-Q) The wet weather _________ her from going shopping.
+Q) The wet weather _ her from going playing tennis.
   1. interrupted
   2. obstructed
   3. impeded
@@ -138,7 +138,7 @@ $ python -m toeicbert --model bert-base-uncased --file test.json
 ```json
 {
     "1" : {
-        "question" : "The teacher had me _ scales several times a day.",
+        "question" : "The music teacher had me _ scales several times.",
         "answer" : "play",
         "1" : "play",
         "2" : "to play",
@@ -146,7 +146,7 @@ $ python -m toeicbert --model bert-base-uncased --file test.json
         "4" : "playing"
     },
     "2" : {
-        "question" : "The teacher had me _ scales several times a day.",
+        "question" : "The music teacher had me _ scales several times.",
         "1" : "play",
         "2" : "to play",
         "3" : "played",
