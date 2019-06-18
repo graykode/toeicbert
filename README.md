@@ -35,7 +35,7 @@ Q) The wet weather _________ her from going shopping.
 ```json
 {
     "1" : {
-        "question" : "Business experts predict that the upward trend in consumer spending is _ to continue until the end of this year.",
+        "question" : "Business experts predict that the upward trend is _ to continue until the end of next year.",
         "answer" : "likely",
         "1" : "potential",
         "2" : "likely",
@@ -49,7 +49,7 @@ Q) The wet weather _________ her from going shopping.
 
 ```
 =============================
-Question : Business experts predict that the upward trend in consumer spending is _ to continue until the end of this year.
+Question : Business experts predict that the upward trend is _ to continue until the end of next year.
 
 Real Answer : likely
 
@@ -107,7 +107,7 @@ Total 7067 datasets: make non-deterministic with `model.eval()`
 |             | bert-base-uncased | bert-base-cased | bert-large-uncased | bert-large-cased |
 | :---------: | :---------------: | :-------------: | :----------------: | :--------------: |
 | Correct Num |       5192        |      5398       |        5321        |       5148       |
-|   Percent   |      73.46%       |     76.38%      |       75.29%       |      72.84       |
+|   Percent   |      73.46%       |     76.38%      |       75.29%       |      72.84%      |
 
 
 
